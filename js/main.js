@@ -19,11 +19,11 @@
   var scrollSrc = "img/logo.svg";
   $(window).scroll(function () {
     if ($(this).scrollTop() > 45) {
-      $(".navbar").addClass("sticky-top shadow-sm");
-      $(".logo").attr("src", scrollSrc);
+      // $(".navbar").addClass("sticky-top shadow-sm");
+      // $(".logo").attr("src", scrollSrc);
     } else {
-      $(".navbar").removeClass("sticky-top shadow-sm");
-      $(".logo").attr("src", initialSrc);
+      // $(".navbar").removeClass("sticky-top shadow-sm");
+      // $(".logo").attr("src", initialSrc);
     }
   });
 
